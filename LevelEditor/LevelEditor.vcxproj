@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6d7a6b75-9976-482e-bf02-c608376b87f2}</ProjectGuid>
-    <RootNamespace>Week03Ch02MazeGame</RootNamespace>
+    <ProjectGuid>{6513936f-f395-4a16-8d04-2656591366c3}</ProjectGuid>
+    <RootNamespace>LevelEditor</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,30 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AudioManager.cpp" />
-    <ClCompile Include="Door.cpp" />
-    <ClCompile Include="Enemy.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="Goal.cpp" />
-    <ClCompile Include="Key.cpp" />
-    <ClCompile Include="Level.cpp" />
-    <ClCompile Include="Money.cpp" />
-    <ClCompile Include="PlacableActor.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="Week03Ch02MazeGame.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="AudioManager.h" />
-    <ClInclude Include="Door.h" />
-    <ClInclude Include="Enemy.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="Goal.h" />
-    <ClInclude Include="Key.h" />
-    <ClInclude Include="Level.h" />
-    <ClInclude Include="Money.h" />
-    <ClInclude Include="PlacableActor.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="Point.h" />
+    <ClCompile Include="LevelEditor.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
